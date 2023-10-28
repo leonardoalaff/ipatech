@@ -97,42 +97,42 @@ main h1 {
 main img.caixadesom {
     height: 120px;
     width: 100px;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     border-radius: 10px;
     }
     
 main img.smartwatch {
     height: 120px;
     width: 100px;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     border-radius: 10px;
 }
 
 main img.headphone {
     height: 120px;
     width: 100px;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     border-radius: 10px;
 }
 
 main img.caixadesom:hover {
     height: 130px;
     width: 110px;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     transition-duration: 0.4s;
     }
 
 main img.smartwatch:hover {
     height: 130px;
     width: 110px;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     transition-duration: 0.4s;
 }
 
 main img.headphone:hover {
     height: 130px;
     width: 110px;
-    margin: 0px 5px 0px 5px;
+    margin: 5px;
     transition-duration: 0.4s;
 }
 
