@@ -73,6 +73,7 @@ main img.caixadesom:hover {
     height: 160px;
     width: 140px;
     margin: 5px;
+    transition-duration: 0.4s;
     }
 
     
@@ -88,6 +89,7 @@ main img.caixadesom2:hover {
     height: 160px;
     width: 140px;
     margin: 5px;
+    transition-duration: 0.4s;
 }
 
 div.ofertas {
