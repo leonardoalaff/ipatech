@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+
+main ul > div {
+    display: inline-block;
+    padding: 20px;
+}
+
+#box1 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#box2 {
+margin-left: 40px;
+margin-bottom: 2px;
+margin-top: 2px;
+}
+
+#box3 {
+margin-left: 100px;
+}
+
+.ipa {
+    color: orange;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header p {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+
+header p > strong {
+    color: orange;
+}
+
+main ul {
+    background-color: rgba(250, 235, 215, 0.479);
+    text-align: center;
+    font-weight: bold;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main img.caixadesom {
+    height: 150px;
+    width: 130px;
+    margin: 5px;
+    border-radius: 10px;
+    }
+
+main img.caixadesom:hover {
+    height: 160px;
+    width: 140px;
+    margin: 5px;
+    }
+
+    
+
+main img.caixadesom2 {
+    height: 150px;
+    width: 130px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+main img.caixadesom2:hover {
+    height: 160px;
+    width: 140px;
+    margin: 5px;
+}
+
+div.ofertas {
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    font-size: 15px;
+}
+
+header nav > a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav > a:hover {
+background-color: rgba(255, 166, 0, 0.144);
+padding: 10px;
+transition-duration: 0.4s;
+border-radius: 5px;
+color: orangered;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.644);
+    padding: 5px;
+    text-align: center;
+    font-size: 10empx;
+    color: rgb(255, 255, 255);
+}
+
