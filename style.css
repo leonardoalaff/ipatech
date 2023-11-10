@@ -1,148 +1,108 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+header {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+    border-radius: 0px 10px;
+    box-shadow: 10px 0px 5px black;
 
-* {
+    transform: translate(0%, -22%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
+#logo {
+    transform: translate(2%, 27%);
+}
+
+#ipa {
+    color: orangered;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+
+#tech {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
     display: inline-block;
 }
 
-
-
-/*IDs*/
-#box1 {
-    margin-top: 2px;
-    margin-bottom: 2px;
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1vw;
 }
 
-#box2 {
-margin-left: 40px;
-margin-bottom: 2px;
-margin-top: 2px;
+.menu a:hover {
+    background-color: orangered;
+    color: white;
+    border-radius: 7px;
+    transition-duration: 0.5s;
 }
 
-#box3 {
-margin-left: 100px;
+#menu1 {
+    position: absolute;
+
+    transform: translate(30%, -85%);
 }
 
+#menu2 {
+    position: absolute;
 
-
-/*CABEÇALHO*/
-.ipa {
-    color: orange;
+    transform: translate(300%, -85%);
 }
 
-header h1 {
-    font-size: 30px;
-    margin-left: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-header p {
+#sessao1 p {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
     background-color: black;
     color: white;
-    padding: 25px;
+    padding: 20px;
+    margin-bottom: 100px;
+
+    transform: translate(0%, 135%);
+}
+
+ul {
+    width: 100%;
     text-align: center;
-    font-size: 15px;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-weight: bolder;
 }
 
-header p > strong {
-    color: orange;
-}
-
-header nav {
-    font-size: 15px;
-}
-
-header nav > a {
-    color: black;
-    text-decoration: none;
+ul li {
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
     padding: 10px;
 }
 
-header nav > a:hover {
-background-color: black;
-padding: 10px;
-transition-duration: 0.4s;
-border-radius: 5px;
-color: white;
-}
-
-
-
-/*PRINCIPAL*/
-div.ofertas {
-    display: flex;
-    justify-content: center;
-}
-
-main ul > div {
-    display: inline-block;
-    padding: 20px;
-}
-
-main ul {
-    background-color: rgba(250, 235, 215, 0.479);
-    text-align: center;
-    font-weight: bold;
-}
-
-main h1 {
-    text-align: center;
-}
-                                        /*Conheça nossas ofertas*/
-main img.caixadesom {
-    height: 120px;
-    width: 100px;
-    margin: 5px;
-    border-radius: 10px;
-    }
-    
-main img.smartwatch {
-    height: 120px;
-    width: 100px;
-    margin: 5px;
-    border-radius: 10px;
-}
-
-main img.headphone {
-    height: 120px;
-    width: 100px;
-    margin: 5px;
-    border-radius: 10px;
-}
-
-main img.caixadesom:hover {
-    height: 130px;
-    width: 110px;
-    margin: 5px;
-    transition-duration: 0.4s;
-    }
-
-main img.smartwatch:hover {
-    height: 130px;
-    width: 110px;
-    margin: 5px;
-    transition-duration: 0.4s;
-}
-
-main img.headphone:hover {
-    height: 130px;
-    width: 110px;
-    margin: 5px;
-    transition-duration: 0.4s;
-}
-
-
-
-/*RODAPÉ*/
 footer {
-    background-color: rgba(128, 128, 128, 0.644);
-    padding: 5px;
+    background-color: orangered;
+    color: white;
     text-align: center;
-    font-size: 10empx;
-    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
