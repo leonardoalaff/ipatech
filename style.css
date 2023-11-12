@@ -126,8 +126,8 @@ ul li {
 }
 
 #ofertas img:hover {
-    background-color: orangered;
-    transition-duration: 0.1s;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
 }
 
 .caixadesom {
