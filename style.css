@@ -3,12 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
+body {
+    margin: 0;
+}
+
 header {
     position: fixed;
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 10%;
-    margin-top: -8px;
 }
 
 #sessao1 {
@@ -87,15 +90,14 @@ h1 {
 
 
 
-#sessao1 p {
+#sessao1 .drop {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1vw;
     background-color: black;
     color: white;
     padding: 20px;
-    margin-bottom: 100px;
-    margin-bottom: 1px;
+    margin-top: 50px;
 }
 
 ul {
@@ -122,33 +124,88 @@ ul li {
     display: inline-block;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    margin: 5px;
+    padding: 0 0 40px 0;
 }
 
-#ofertas img:hover {
+#ofertas .pofertas {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80%;
+}
+
+#ofertas div {
+    margin: 5px;
+    padding: 0;
+}
+
+#ofertas .boxofertas {
+    padding: 0;
+    margin: 5px;
+}
+
+#ofertas div:hover {
     transform: scale(1.1);
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 20px 2px orangered;
+    margin: 5px;
+    padding: 0;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+#ofertas div:hover p {
+    display: none;
     transition-duration: 0.4s;
 }
 
-.caixadesom {
+div#caixadesom2 {
+    background-image: url('imagens/caixa-de-som-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     width: 10vw;
     height: 15vh;
     padding: 5px;
     border-radius: 15px;
+    background-color: rgb(218, 218, 218)
 }
 
-.smartwatch {
+div#smartwatch2 {
+    background-image: url('imagens/smartwatch-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     width: 10vw;
     height: 15vh;
     padding: 5px;
     border-radius: 15px;
+    background-color: rgb(218, 218, 218)
 }
 
-.fonedeouvido {
+div#headphone2 {
+    background-image: url('imagens/headphone-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     width: 10vw;
     height: 15vh;
     padding: 5px;
     border-radius: 15px;
+    background-color: rgb(218, 218, 218)
+}
+
+div#celular2 {
+    background-image: url('imagens/celular-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 10vw;
+    height: 15vh;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(218, 218, 218)
 }
 
 #sessao5 > h1 {
@@ -175,3 +232,78 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #logo {
+        transform: translate(3%, 80%);
+    }
+
+    #ipa {
+        font-size: 20px;
+    }
+
+    #tech {
+        font-size: 20px;
+    }
+
+    header {
+    }
+
+    .menu a {
+        font-size: 10px;
+        padding: 3px;
+    }
+    
+    #menu2 {
+        position: absolute;
+    
+        transform: translate(90%, 20%);
+    }
+
+    #sessao1 .drop {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    ul li {
+        font-size: 9.8px;
+    }
+
+    #sessao1 > h1 {
+        font-size: 25px;
+    }
+
+    #ofertas .pofertas {
+        margin-top: 200%;
+        font-size: 11px;
+    }
+
+    div#caixadesom2 {
+        width: 100px;
+    }
+
+    div#smartwatch2 {
+        width: 100px;
+    }
+
+    div#headphone2 {
+        width: 100px;
+    }
+
+    div#celular2 {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #sessao5 {
+        background-size: cover;
+    }
+
+    #sessao5 h1 {
+        font-size: 25px;
+    }
+}  
